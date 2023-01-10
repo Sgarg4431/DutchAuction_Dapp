@@ -23,7 +23,51 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.bg-img {
+  /* The image used */
+  background-image: url("Auction.jpg");
 
+  height: 700px;
+  width:1519px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.bg-img1 {
+  /* The image used */
+  background-image: url("nft.jpg");
+
+  height: 700px;
+  width:1519px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.bg-img2 {
+  /* The image used */
+  background-image: url("main.jpg");
+
+  height: 700px;
+  width:1519px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
 .App-link {
   color: #61dafb;
 }
